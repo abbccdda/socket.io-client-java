@@ -2,7 +2,7 @@ environment:
   JAVA_HOME : C:\Program Files\Java\jdk1.7.0\
 
 install:
-  - ps: Install-Product node 0.10.31 x86
+  - ps: Install-Product node 0.10.26 x86
   - mvn install -DskipTests=true -Dgpg.skip=true
 
 test_script:
