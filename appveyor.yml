@@ -4,7 +4,7 @@ environment:
 # os: Visual Studio 2015
 
 install:
-  - dir C:\Program Files (x86)\nodejs\
+  - set
   - ps: Install-Product node 6 x86
   - mvn install -DskipTests=true -Dgpg.skip=true
 
