@@ -5,6 +5,7 @@ environment:
 
 install:
   - npm config list
+  - dir C:\Program Files (x86)\nodejs\
   - ps: Install-Product node 6 x86
   - mvn install -DskipTests=true -Dgpg.skip=true
 
